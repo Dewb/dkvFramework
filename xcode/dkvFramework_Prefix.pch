@@ -1,0 +1,18 @@
+//
+// Prefix header for all source files of the 'basicApp' target in the 'basicApp' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+#include "cinder/app/AppBasic.h"
+#include "cinder/gl/GlslProg.h"
+#include "cinder/gl/Vbo.h"
+#include "cinder/gl/Texture.h"
+#include "cinder/gl/gl.h"
+#include "cinder/Camera.h"
+#include "cinder/params/Params.h"
+#include "cinder/Utilities.h"
+#include "cinder/ImageIo.h"
+#include "cinder/qtime/QuickTime.h"
